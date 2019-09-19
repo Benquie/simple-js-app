@@ -15,3 +15,6 @@ var repository = [
   types:['bug']
 }
 ];
+for (var i=0; i < repository.length; i++){
+    document.write( "<p>" + repository[i].name + repository[i].height + "</p>");
+}
