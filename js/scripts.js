@@ -21,4 +21,9 @@ for (var i=0; i < repository.length; i++){
   else
     document.write( "<p>" + repository[i].name + repository[i].height + "</p>");
 
-}
+} //pokemon properties forEach loop
+repository.forEach(function(repository){
+  document.write(repository.name + "<br>")
+  document.write(repository.height + "<br>")
+  document.write(repository.types + "<br><br>")
+});
